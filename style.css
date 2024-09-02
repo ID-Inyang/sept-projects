@@ -1,3 +1,25 @@
+* {
+    /* background-color: lightskyblue; */
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 body {
+    width: 600px;
+    margin: auto;
     background: linear-gradient(90deg, lightblue , blue);
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+video, img {
+    display: block;
+    margin: auto;
+}
+
+footer {
+    background: linear-gradient(180deg, grey, black);
+    padding-left: 30px;
 }
